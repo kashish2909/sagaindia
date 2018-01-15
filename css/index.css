@@ -1,0 +1,27 @@
+#phoneLogo img{
+    width:20%;
+    min-width: 175px;
+    margin: 0px auto;
+    display: block;
+}
+#phoneLogo{
+    padding: 10px;
+}
+
+@media screen and (min-width:300px) and (max-width: 767px){
+#intro{
+    display: none;
+}
+#phoneLogo{
+    display: block;
+}
+}
+
+@media screen and (min-width:768px){
+    #phoneLogo img{
+        display: none;
+    }
+    #phoneLogo{
+        height: 0px;
+    }
+}

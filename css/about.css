@@ -1,0 +1,61 @@
+hr{
+	height: 1px;
+	width: 90%;
+	text-align: center;
+	position: relative;
+	background: #E75926;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 0;
+}
+
+#pageHeading{
+	margin-left:10%;
+	margin-top: 15%;
+}
+
+#para1 img, #para2 img{
+	display: block;
+	width: 70%;
+	margin: 0px auto;
+	margin-bottom: 5%;
+}
+
+#para1 p, #para2 p{
+	margin:8%;
+	text-align: justify;
+}
+
+
+@media screen and (min-width:768px) {
+	#pageHeading{
+		margin-left:10%;
+		margin-top: 8%;
+	}
+	#mainAboutDiv{
+		width: 70%;
+		margin: 0px auto;
+		font-size: 1em;
+	    margin-bottom: 10%;
+	}
+	
+	
+	#para1 img{
+		width: 40%;
+		float: left;
+		margin-right: 4%;
+		margin-bottom: 2%;
+	}
+	#para1 p, #para2 p{
+		text-align: justify;
+		margin: 0px;
+	}
+	
+	#para2 img{
+		float: right;
+		width: 40%;
+		margin-left: 4%;
+		margin-bottom: 2%;
+	
+	}
+}
