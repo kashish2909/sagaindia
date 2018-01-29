@@ -104,7 +104,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #E75926;
+	background: #d62016;;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -130,7 +130,7 @@ hr {
 	font-weight: 600;
 }
 .navbar-custom .navbar-brand i.fa {
-	color: #E75926;
+	color: #d62016;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -159,13 +159,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #E75926;
+	color: #d62016;;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #E75926;
+	color: #d62016;;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -196,7 +196,8 @@ hr {
 #intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
-	background-color: rgba(14, 13, 13, 0.671);
+/*	background-color: rgba(14, 13, 13, 0.671);*/
+    background-color: rgba(245, 245, 245, 0.308);
 }
 #intro .intro-body H1 {
 	font-size: 76px;
@@ -226,7 +227,7 @@ hr {
 		text-decoration: none;
 	  }
 	  .dropdown:hover{
-		  color:#E75926;
+		  color:#d62016;;
 	  }
 
 #intro {
@@ -242,7 +243,7 @@ hr {
 }
 .btn-default {
 	color: #f6f6f6;
-	background: #cf5022;
+	background: #d62016;
 	border: 0;
 	padding: 12px 24px;
 	margin: 0 8px;
@@ -280,7 +281,7 @@ hr {
 	content: "✓";
 	font-weight: 600;
 	padding-right: 10px;
-	color: #e75926;
+	color: #d62016;;
 }
 #about i.fa {
 	float: left;
@@ -324,7 +325,7 @@ hr {
 }
 #services i.fa {
 	font-size: 36px;
-	color: #E75926;
+	color: #d62016;
 	transition: all 0.5s;
 }
 /* Gallery Section */
@@ -351,13 +352,13 @@ ol.type li a {
 }
 ol.type li a.active {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid #d62016;;
+	background: #d62016;;
 }
 ol.type li a:hover {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid #d62016;;
+	background: #d62016;;
 }
 .isotope-item {
 	z-index: 2
@@ -525,7 +526,7 @@ img.img-thumbnail.team-img {
 }
 #contact i.fa {
 	font-size: 22px;
-	color: #e75926;
+	color: #d62016;;
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -562,7 +563,7 @@ label {
 	box-shadow: transparent;
 }
 #contact .btn-default {
-	background: #cf5022;
+	background: #d62016;;
 	border: 0;
 	border-radius: 4px;
 	padding: 10px 20px;
@@ -658,4 +659,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		width:10% !important;
 		margin: 8px 0px !important;
 	}
+}
+
+#footer .fa{
+	font-size: 1.5em !important;
+}
+
+#footer a:hover{
+	color: #d62016;
 }
