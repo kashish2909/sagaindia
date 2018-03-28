@@ -1,3 +1,4 @@
+
 hr{
 	height: 1px;
 	width: 90%;
@@ -32,9 +33,23 @@ hr{
 	text-align: justify;
 }
 
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.images>img{
+    transition: all .9s ease-in-out;
+    width: 40%;
+    height: 40% !important;
+    margin: 2% auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.images>img:hover{transform: scale(1.5);}
+
 @media screen and (min-width:768px) {
 	p{
-		font-size: 0.8em;
+		/*font-size: 0.8em;*/
 	}
 	#pageHeading{
 		margin-left:10%;
@@ -43,7 +58,7 @@ hr{
 	#mainAboutDiv{
 		width: 70%;
 		margin: 0px auto;
-		font-size: 1.5em;
+		font-size: 1.3em;
 	    margin-bottom: 10%;
 	}
 	
@@ -64,6 +79,7 @@ hr{
 	}
 	#para1 img{
 		width: 40%;
+		min-height: 40%;
 		margin: 2% auto;
 	}
 	#para1 p, #para2 p{
@@ -77,5 +93,15 @@ hr{
 		margin-left: 4%;
 		margin-bottom: 2%;
 	
+	}
+}
+
+p{
+	font-size: 1em;
+}
+
+@media screen and (max-width:500px){
+	.images{
+		flex-direction: column;
 	}
 }

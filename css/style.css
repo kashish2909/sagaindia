@@ -3,6 +3,43 @@
 	src: url("fonts\fonts\primeTime.ttf");
 	
 	}
+
+	@font-face {
+		font-family: geosans;
+		src: url(fonts\GeosansLight.eot),
+			url(fonts\GeosansLight.ttf),
+			url(fonts\GeosansLight.woff);
+	}
+	@font-face {
+		font-family:cantebel;
+		src: url(fonts\centabel.eot),
+			url(fonts\centabel.ttf),
+			url(fonts\centabel.woff);
+	}
+	@font-face {
+		font-family: birthofahero;
+		src: url(fonts\boah\BIRTHOFAHERO.eot),
+			url(fonts\boah\BIRTHOFAHERO.ttf),
+			url(fonts\boah\BIRTHOFAHERO.woff);
+	}
+	@font-face {
+		font-family: longTime;
+		src: url(fonts\longtime\LongTime.eot),
+			url(fonts\longtime\LongTime.ttf),
+			url(fonts\longtime\LongTime.woff);
+	}
+
+	p img{
+		transition: all .2s ease-in-out;
+	}
+	p img :hover{	transform: scale(2);}
+.brandLabel{
+	font-family: longTime;
+font-size: 2em;
+line-height: 50px;
+margin-right: 10%;
+
+}
 .navBrandLogo{
 
 	margin: 5px 0px !important;
@@ -11,7 +48,7 @@
 
 }
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family:cantebel;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -46,7 +83,7 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-size: 14px;
+	font-size: 1.1em;
 }
 a {
 	color: #754747;
@@ -101,7 +138,7 @@ ul, ol {
 }
 hr {
 	height: 4px;
-	width: 70px;
+	width: 200px;
 	text-align: center;
 	position: relative;
 	background: #d62016;;
@@ -184,7 +221,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/saga5.jpeg) no-repeat center center fixed;
+/*	background: url(../img/saga5.jpeg) no-repeat center center fixed;*/
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -300,8 +337,8 @@ hr {
 }
 /* Services Section */
 #services {
-	padding: 140px 0;
-	background: url(../img/services-bg.jpg);
+	/*padding: 140px 0;*/
+	background: url(../img/factory2/11.jpg);
     background-color: rgba(0, 0, 0, 0.733);
 	background-size: cover;
 	background-attachment: fixed;
@@ -631,7 +668,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-transform: capitalize;
 }
 
-
+nav>.container{
+	width: 90%;
+}
 @media (max-width: 768px) {
 .hover-bg .hover-text {
 	padding: 20%;
@@ -651,6 +690,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 	#services .row .col-md-3{
 		width: 25%;
+	}
+	nav>.container{
+		width: 100% ;
+	}
+	.brandLabel{
+		margin-right:5%;
 	}
 }
 

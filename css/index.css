@@ -1,3 +1,13 @@
+@font-face {
+    font-family: birthofahero;
+    src: url(fonts\boah\BIRTHOFAHERO.eot),
+        url(fonts\boah\BIRTHOFAHERO.ttf),
+        url(fonts\boah\BIRTHOFAHERO.woff);
+}
+
+body{
+    width: 100vw;
+}
 #phoneLogo img{
     width:20%;
     min-width: 175px;
@@ -8,20 +18,106 @@
     padding: 10px;
 }
 
+.smallImages{
+    width: 75%;
+    height: 60%;
+    transition: all .9s ease-in-out;
+    max-width: 270px;
+    max-height: 175px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px grey;
+}
+
+.smallImages:hover{transform: scale(1.5);}
+.who{
+    margin-top: 25%;
+}
+.about-text p{
+    text-align: justify;
+}
+#about,#work,#infra {
+    background: #f6f6f6;
+}
+
 @media screen and (min-width:300px) and (max-width: 767px){
+
+    .brandLabel{
+        font-size: 1em;
+        line-height: 50px;
+        }
 #intro{
     display: none;
 }
 #phoneLogo{
     display: block;
 }
+#about,#work,#infra {
+    padding:5%;
+    background: #f6f6f6;
 }
+#about img,#work img,#infra img{
+    margin: 10px auto;
+}
+}
+#about a,#work a,#infra a{
+    margin: 5px auto;
+    display: block;
+    width: max-content;
+    min-width: 50px;
 
+}
+.fa-car,-fa-industry{
+    font-size: 2em;
+    color: #d62016;}
+
+    .quote{
+        font-family:birthofahero !important;
+        color: white;
+        margin: 10%;
+        font-size:5em;
+    }
+
+    #services>div{
+        position: relative;
+        top: 0px !important;
+        left: 0px !important;
+        padding: 140px 0px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.555);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+    }
+
+    @media screen and (min-width:300px) and (max-width:600px){
+        .quote{
+            font-size: 3em;        }
+    }
+@media screen and (min-width:1000px){
+    .leftLine{
+       border-left:dotted grey thin;
+    }
+}
 @media screen and (min-width:768px){
     #phoneLogo img{
         display: none;
     }
     #phoneLogo{
         height: 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:981px){
+    #about{
+        
+    }
+    #about img,#work img,#infra img{
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width:1000px){
+    #about,#work,#infra{
+        padding:5%;
     }
 }
